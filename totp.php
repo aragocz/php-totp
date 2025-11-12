@@ -1,7 +1,7 @@
 <?php
     include "base32lib.php";
     /**
-     * Generate a 6 digit TOTP by accordance with RFC 6238 and RFC 4226
+     * Generate a 6 digit TOTP in accordance with RFC 6238 and RFC 4226
      * @param string $key Shared secret encoded in Base32
      * @param int $step Time step 
      * @param int $drift Drift of time step
